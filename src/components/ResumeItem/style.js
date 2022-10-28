@@ -11,18 +11,18 @@ export const Container = styled.div`
 
     @media(max-width: 750px) {
         width: 20%;
-    }
 
-    p{
-        font-size: 12px;
-    }
+        p{
+            font-size: 12px;
+        }
 
-    span{
-        font-size: 20px;
-    }
+        span{
+            font-size: 20px;
+        }
 
-    svg{
-        display: none;
+        svg{
+            display: none;
+        }
     }
 `;
 
@@ -32,6 +32,7 @@ export const Header = styled.header`
     justify-content: space-around;
     width: 100%;
     gap: 10px;
+    margin: 20px auto;
 
     svg{
         width: 25px;
